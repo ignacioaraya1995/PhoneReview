@@ -2,7 +2,7 @@ import os
 import pandas as pd
 from prettytable import PrettyTable
 
-def client_file_analysis():
+def phone_review():
     folder_path = 'data'
     data_frames = []
 
@@ -38,4 +38,4 @@ def client_file_analysis():
     print("\nNote: Phone numbers should ideally be unique or repeated no more than 3 or 4 times to ensure data integrity and privacy.")
 
 # Call the function to perform analysis
-client_file_analysis()
+phone_review()
